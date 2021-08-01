@@ -6,7 +6,7 @@
   /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
 .header {
@@ -126,12 +126,6 @@
   margin-bottom: 100px;
 }
 
-.table-flex {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .table {
   display: flex;
   flex-wrap: wrap;
@@ -174,6 +168,7 @@
 
 .table__text {
   margin-top: 20px;
+  margin-bottom: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -188,7 +183,6 @@
   margin: 0;
   padding: 0;
   min-height: 890px;
-  height: 100%;
 }
 
 .feynman__title {
@@ -239,7 +233,7 @@
   background-color: #1f1f1f;
   margin: 0;
   padding: 0;
- }
+}
 
 .kaufman__triangle {
   position: absolute;
